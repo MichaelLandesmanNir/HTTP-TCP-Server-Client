@@ -23,7 +23,7 @@ The server listens for incoming HTTP requests and serves files from a specified 
 - Serves static content from a predefined directory.
 - Handles HTTP GET requests efficiently.
 - Returns proper HTTP status codes:
-  -200 OK for successful requests.
-  -404 Not Found if a requested file is missing.
-  -301 Moved Permanently for redirected resources.
+  1) 200 OK for successful requests.
+  2) 404 Not Found if a requested file is missing.
+  3) 301 Moved Permanently for redirected resources.
 - Logs HTTP request and response headers for debugging.
